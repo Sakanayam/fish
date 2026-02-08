@@ -4,13 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Title Here</title>
+    <style>
+        .left {
+            float: left;
+            margin-right: 10px;
+        }
+        .right {
+            float: right;
+            margin-left: 10px;
+        }
+        .center {
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
 </head>
 <body>
     <h1>Your Heading Here</h1>
-    <img src="image1.jpg" alt="Description of image1" style="align: left;">
-    <img src="image2.jpg" alt="Description of image2" style="align: right;">
-    <img src="image3.jpg" alt="Description of image3" style="align: center;">
+    <img src="image1.jpg" alt="Description of image1" class="left">
+    <img src="image2.jpg" alt="Description of image2" class="right">
+    <img src="image3.jpg" alt="Description of image3" class="center">
     <p>Some content here...</p>
-    <img src="image4.jpg" alt="Description of image4" style="align: center;">
+    <img src="image4.jpg" alt="Description of image4" class="center">
 </body>
 </html>
